@@ -4,8 +4,6 @@ android:
     - tools
     - platform-tools
     - tools
-
-    - android-26
 script:
   - ./gradlew uploadArchives
 after_success:
