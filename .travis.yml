@@ -5,7 +5,6 @@ android:
     - platform-tools
     - tools
 
-    - build-tools-26.1.1
     - android-26
 script:
   - ./gradlew uploadArchives
