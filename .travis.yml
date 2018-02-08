@@ -1,0 +1,5 @@
+language: java
+script:
+  - ./gradlew uploadArchives
+after_success:
+  - .travis_push.sh
