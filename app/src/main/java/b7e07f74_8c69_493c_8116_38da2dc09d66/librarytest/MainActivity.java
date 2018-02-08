@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final EditText ed1 = findViewById(R.id.editText1);
-        final EditText ed2 = findViewById(R.id.editText2);
-        final TextView res = findViewById(R.id.resultView);
-        ((Button)findViewById(R.id.calcButton)).setOnClickListener(new View.OnClickListener() {
+        final EditText ed1 = (EditText)findViewById(R.id.editText1);
+        final EditText ed2 = (EditText)findViewById(R.id.editText2);
+        final TextView res = (TextView)findViewById(R.id.resultView);
+        findViewById(R.id.calcButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String t1 = ed1.getText().toString();

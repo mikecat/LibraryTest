@@ -1,9 +1,4 @@
 language: android
-android:
-  components:
-    - tools
-    - platform-tools
-    - tools
 script:
   - ./gradlew uploadArchives
 after_success:
