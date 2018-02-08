@@ -1,6 +1,8 @@
 Android用ライブラリを作るテスト
 ------------------------------
 
+[![Build Status](https://travis-ci.org/mikecat/LibraryTest.svg?branch=master)](https://travis-ci.org/mikecat/LibraryTest)
+
 参考
 ====
 
